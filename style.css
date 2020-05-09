@@ -1,0 +1,22 @@
+.nav-wrapper{
+    background-color: black;
+    color: white;
+}
+
+#dropdown1{
+    background-color: black;
+    color: white;
+    
+}
+
+body{
+    background-image: url("bmw.jpg");
+    background-size: 1600px;
+    background-repeat: no-repeat;
+   
+}
+
+.dropdown-content li>a{
+    color: white !important;
+}
+
