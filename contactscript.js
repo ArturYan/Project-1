@@ -20,3 +20,4 @@ $("#button").on("click", function(){
     
     // when i click the save button - first name, last name, email and text are saved to local storage.
     // Then message contents are cleared out
+    
