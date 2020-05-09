@@ -20,4 +20,25 @@ $("#button").on("click", function(){
     
     // when i click the save button - first name, last name, email and text are saved to local storage.
     // Then message contents are cleared out
-    
+
+
+    // Map section
+
+
+    // START OF OPEN LAYER SCRIPT
+    var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([-118.4525226, 34.210177]),
+          zoom: 16.7
+        })
+      });
+    // END OF OPEN LAYER SCRIPT
+
+    // Map API
+    // AJAX
