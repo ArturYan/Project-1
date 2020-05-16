@@ -1,0 +1,129 @@
+.nav-wrapper{
+    background-color: black;
+    color: white;
+}
+
+#dropdown1{
+    background-color: black;
+    color: white;
+    
+}
+
+body{
+    background-color: black;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+   
+}
+
+.dropdown-content li>a{
+    color: white !important;
+}
+
+.claims{
+    background-image: url("howtoinsclaimsadjuster_09.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    color: white;
+    padding: 40px;
+    font-family: fantasy;
+   
+}
+
+.page-footer {
+    background-color: black !important;
+    text-align: center;
+}
+
+.number{
+    height: 100px !important;
+    margin-left: 83px !important;
+    margin-right: -403px !important;
+    background-color: #fab637 !important;
+  
+}
+
+
+
+
+
+.lol{
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+}
+.Paint{
+    background-image: url("iStock-899442490.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    color: black;
+    padding: 40px;
+    font-family: fantasy;
+}
+
+.commingsoon{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 100px;
+}
+
+
+.card .card-image .card-title{
+    color: white !important;
+    font-weight: bold;
+    padding: 9px !important;
+}
+
+
+.card .card-content .card-title {
+    line-height: 14px !important;
+}
+
+.card .card-reveal {
+    background-color: silver !important;
+}
+
+.imgsize{
+    height: 245px;
+    width: 737px;
+
+}
+
+.tesla{
+    padding-bottom: 10px;
+}
+
+.read{
+    color: red !important;
+}
+.card{
+    height: 400px;
+}
+
+.zzz{
+    height: 400px;
+    width: 400px;
+}
+
+.row .col.m3 {
+    
+    margin-left: 2% !important;
+    left: 8.5% !important;
+    background-color: silver;
+   
+ 
+}
+
+.card{
+    background-color: silver;
+    border-radius: 16px !important;
+    font-size: 18px !important;
+    font-family: serif !important;
+}
+
+
+
+
+
