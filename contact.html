@@ -6,11 +6,19 @@
     <title><Project-1></Project-1></title>
     <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <!-- START OPEN LAYERS API -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 392px;
+        width: 100%;
+      }
+    </style>
+   
     
-   
-   
-            
-</head>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.3.1/build/ol.js"></script>      
+ <!-- END OPEN LAYERS API -->
+  </head>
 
 
 
@@ -44,6 +52,10 @@
             <div class="row">
               <div class="col s12 m5">
                 <div class="card-panel">
+                  <div class="row">
+                    <form class="col s12">
+                      <h4>Contact Us</h4>
+                    </div>
                   <!-- start of form -->
             <div class="row">
               <form class="col s12">
@@ -90,19 +102,51 @@
                 </div>
               </div>
             </div>
+            
             <!-- END OF CARD -->
             <div class="row">
-              <div class="col s12 m5">
+              <div class="col s12 m7">
                 <div class="card-panel">
-                  MAPS API HERE
-            </div>
+                  <h4>Location</h4>
+                  <p>14666 Keswick St, Van Nuys, CA 91405</p>
+                  <div class="city"></div>
+                  
+                  <div class="tempF"></div>
+                  <div class="description"></div>
+                  <!-- START OF OPEN LAYER DIV -->
+                  <div class="card-panel grey lighten-2">
+                  <div id="map" class="map"></div>
+                  </div>
+                  </div>
+         
+           
+                    <!-- END OF OPEN LAYER DIV -->
+                    <!--Start of weather Card  -->
+             <!-- <div class="row">
+              <div class="col s12 m2">
+                <div class="card-panel">
+                  <div class="city"></div>
+                  <div class="tempF"></div>
+          
+                </div>   -->
+                    <!-- END OF weather card -->
+                 
+
+          
 
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>      
     <script src="contactscript.js"></script>
+ 
 </body> 
  
 
 </html>
+
+<!-- Yelp API Documentation Client ID
+fZtq2A26gyQvJcU04jYXkA
+
+API Key
+yD6QohDAO7zqmfkv0r1PIyMAHiqJ07fj62zHfPAbvFqZoYPCKs1lYgjLiSSaZt-FNKElQu_FZS0A4nEovyy-0UxA_Le91bo0O8LltqUndvR-KwzvKs25udLUmVa7XnYx -->
