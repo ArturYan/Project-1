@@ -10,6 +10,7 @@
 }
 
 body{
+    background-image: url("../Project-1/pictures/bmwik.gif");
     background-color: black;
     background-size: 1600px;
     background-repeat: no-repeat;
@@ -124,6 +125,100 @@ body{
 }
 
 
+.logo img {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    
+}
+
+.audi{
+    background-image: url("../Project-1/pictures/newaudi.gif");
+    background-size: 1530px;
+}
+
+.polish{
+    font-size: small;
+    margin-top: 560px;
+    margin-left: 0px;
+    height: 600px;
+    width: 100%;
+    
+    
+    
+}
+
+.why{
+    margin-top: -616px;
+    margin-left: 670px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 6px 2px 5px black;
+}
+
+.answer{
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 400px;
+    text-shadow: 6px 2px 5px black;
+}
 
 
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .par{
+      color: white;
+  }
+
+  .gallery{
+      color: white;
+      font-family: 'Times New Roman', Times, serif;
+  }
 
