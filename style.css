@@ -23,6 +23,9 @@ body{
 
 .bmw{
     background-image: url("../Project-1/pictures/bmwik.gif");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .dropdown-content li>a{
@@ -194,11 +197,10 @@ nav ul a {
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 6px 2px 5px black;
 }
-.answer{
-    color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 400px;
-    text-shadow: 6px 2px 5px black;
+.card444{
+    background-color: transparent;
+    color: white;
+    text-align: center;
 }
 
 
